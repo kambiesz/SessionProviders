@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisSession", "..\RedisSession\RedisSession\RedisSession.csproj", "{B62D4DF9-0694-4BB2-B36F-0B571D3312BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultSession", "DefaultSession\DefaultSession.csproj", "{CC842738-3F4E-4244-B3C0-8A64A45BFB1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultSession", "..\DefaultSession\DefaultSession\DefaultSession.csproj", "{CC842738-3F4E-4244-B3C0-8A64A45BFB1D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisSession", "RedisSession\RedisSession\RedisSession.csproj", "{B62D4DF9-0694-4BB2-B36F-0B571D3312BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateServerSession", "..\StateServerSession\StateServerSession\StateServerSession.csproj", "{51138902-2471-40BB-8D6B-2561ACF0065E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SessionTest", "SessionTest\SessionTest\SessionTest.csproj", "{3A09180C-EA20-4D0B-9586-E563D71408F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SessionTest", "..\SessionTest\SessionTest\SessionTest.csproj", "{3A09180C-EA20-4D0B-9586-E563D71408F4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateServerSession", "StateServerSession\StateServerSession\StateServerSession.csproj", "{51138902-2471-40BB-8D6B-2561ACF0065E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,22 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B62D4DF9-0694-4BB2-B36F-0B571D3312BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B62D4DF9-0694-4BB2-B36F-0B571D3312BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B62D4DF9-0694-4BB2-B36F-0B571D3312BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B62D4DF9-0694-4BB2-B36F-0B571D3312BD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CC842738-3F4E-4244-B3C0-8A64A45BFB1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CC842738-3F4E-4244-B3C0-8A64A45BFB1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC842738-3F4E-4244-B3C0-8A64A45BFB1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC842738-3F4E-4244-B3C0-8A64A45BFB1D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{51138902-2471-40BB-8D6B-2561ACF0065E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{51138902-2471-40BB-8D6B-2561ACF0065E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{51138902-2471-40BB-8D6B-2561ACF0065E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{51138902-2471-40BB-8D6B-2561ACF0065E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B62D4DF9-0694-4BB2-B36F-0B571D3312BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B62D4DF9-0694-4BB2-B36F-0B571D3312BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B62D4DF9-0694-4BB2-B36F-0B571D3312BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B62D4DF9-0694-4BB2-B36F-0B571D3312BD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3A09180C-EA20-4D0B-9586-E563D71408F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3A09180C-EA20-4D0B-9586-E563D71408F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A09180C-EA20-4D0B-9586-E563D71408F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A09180C-EA20-4D0B-9586-E563D71408F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51138902-2471-40BB-8D6B-2561ACF0065E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51138902-2471-40BB-8D6B-2561ACF0065E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51138902-2471-40BB-8D6B-2561ACF0065E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51138902-2471-40BB-8D6B-2561ACF0065E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
